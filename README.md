@@ -1,4 +1,4 @@
-## Beginner Cybersecurity Projects
+## Beginner Cybersecurity-Projects
 
 ## Project: Simulated Phishing & Ransomware Incident Response
 
