@@ -1,40 +1,45 @@
+## Beginner Cybersecurity Projects
+
 ## Project: Simulated Phishing & Ransomware Incident Response
 
-This repository contains simulated incident scenarios (phishing and ransomware) analyzed using the **5 W’s** (Who, What, Where, When, Why) and documented with **formal response actions**.
+This repository contains beginner-friendly cybersecurity projects designed to simulate real-world scenarios, apply structured analysis (5 W’s method), and document incident response actions. Each project includes incident reports, Indicators of Compromise (IOCs), response plans, and lessons learned.
 
-## Scenarios
-1. **Phishing Simulation** – Malicious email attempting to harvest credentials.
-2. **Ransomware Simulation** – Files encrypted, ransom note demands payment.
 
-Each scenario includes:
-- **Incident report (5 W’s + IOCs)**
-- **Sample artifacts** (email/ransom note)
-- **Response plan** (containment, eradication, recovery, comms)
+## 📑 Table of Contents
 
-## Purpose
-Practice structured, standards-aligned incident response and showcase documentation skills.
+### 1. Simulated Phishing Incident
+**Description:**  
+A phishing simulation where a spoofed email attempts to harvest user credentials.  
+You’ll analyze the incident using the 5 W’s framework and document containment, eradication, and recovery steps.  
 
-## phishing-simulation/incident_report.md
-# Incident Report – Phishing Simulation
+- [Incident Report](phishing-simulation/incident_report.md)  
+- [Response Plan](phishing-simulation/response_plan.md)  
 
-## 5 W’s
-- **Who:** Targeted employees at ACME Corp.
-- **What:** Email spoofing IT; link to fake SSO page to steal credentials.
-- **Where:** Corporate email; user workstation browser.
-- **When:** Detected 2025-09-04 09:15 PT.
-- **Why:** Credential theft for unauthorized access.
+---
 
-## IOCs
-- Sender: support@fake-it.helpdesk.com
-- Subject: "Password Reset Required Immediately"
-- URL: http://malicious-reset.example/login
+### 2. Simulated Ransomware Incident
+**Description:**  
+A ransomware scenario where files are encrypted and a ransom note is dropped.  
+This exercise focuses on documenting the response lifecycle—identification, containment, eradication, recovery, and communication.  
 
-## Summary
-A user reported a suspicious email. Security review confirmed a spoofed domain and credential-harvesting page.
+- [Incident Report](ransomware-simulation/incident_report.md)  
+- [Response Plan](ransomware-simulation/response_plan.md)  
 
-## Impact (Simulated)
-No confirmed credential use; 2 users clicked link, 0 submitted credentials.
+---
 
-## Evidence
-- `email_sample.eml`
-- Proxy logs showing outbound to malicious domain
+### 3. Templates for Incident Response
+**Description:**  
+Reusable templates for documenting cybersecurity incidents using industry best practices. These can be adapted for new exercises or real incidents.  
+
+- [5 W’s Template](templates/5Ws_template.md)  
+- [Incident Response Playbook](templates/incident_response_playbook.md)  
+- [Lessons Learned Template](templates/lessons_learned_template.md)  
+
+---
+
+## 🚀 Purpose
+These projects are designed to:
+- Build foundational cybersecurity skills.  
+- Practice structured documentation of security incidents.  
+- Demonstrate knowledge of the incident response lifecycle.  
+- Provide a portfolio of practical work for future learning or job applications. 
